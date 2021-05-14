@@ -58,7 +58,10 @@ http://localhost:8080/api/usuario --para cadastros dos usuarios
 
 }
 
+### Documentação da API
+Esse projeto usa o [Swagger](https://swagger.io/) para documentação da API. 
+Para acessa-lá, click no seguinte link quando o projeto estiver em execução: 
+http://localhost:8080/swagger-ui.html
 
-
-
-
+### Referências
+- [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
