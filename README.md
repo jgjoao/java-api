@@ -71,4 +71,6 @@ Para acessa-lá, click no seguinte link quando o projeto estiver em execução:
 http://localhost:8080/swagger-ui.html
 
 ### Referências
-- [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
+1. [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
+1. [Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
+1. [Spring Boot and H2 in memory database - Why, What and How?](https://www.springboottutorial.com/spring-boot-and-h2-in-memory-database)
