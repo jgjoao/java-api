@@ -58,10 +58,19 @@ http://localhost:8080/api/usuario --para cadastros dos usuarios
 
 }
 
+### Banco de dados
+O banco de dados usado nesta API é o [H2 Database Engine](https://www.h2database.com/), usado aqui como banco de dados _in-memory_.
+Este banco possui um conveniente console que pode ser acessado por este link:
+http://localhost:8080/h2
+
+Para se efetuar login nesse banco mude o valor de _JDBC URL_ para _jdbc:h2:mem:cadastro-eventos_ 
+
 ### Documentação da API
 Esse projeto usa o [Swagger](https://swagger.io/) para documentação da API. 
 Para acessa-lá, click no seguinte link quando o projeto estiver em execução: 
 http://localhost:8080/swagger-ui.html
 
 ### Referências
-- [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
+1. [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
+1. [Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
+1. [Spring Boot and H2 in memory database - Why, What and How?](https://www.springboottutorial.com/spring-boot-and-h2-in-memory-database)
