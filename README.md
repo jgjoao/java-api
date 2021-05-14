@@ -58,6 +58,13 @@ http://localhost:8080/api/usuario --para cadastros dos usuarios
 
 }
 
+### Banco de dados
+O banco de dados usado nesta API é o [H2 Database Engine](https://www.h2database.com/), usado aqui como banco de dados _in-memory_.
+Este banco possui um conveniente console que pode ser acessado por este link:
+http://localhost:8080/h2
+
+Para se efetuar login nesse banco mude o valor de _JDBC URL_ para _jdbc:h2:mem:cadastro-eventos_ 
+
 ### Documentação da API
 Esse projeto usa o [Swagger](https://swagger.io/) para documentação da API. 
 Para acessa-lá, click no seguinte link quando o projeto estiver em execução: 
