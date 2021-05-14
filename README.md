@@ -1,7 +1,6 @@
 # java-api
 ApiRest para inscrição de usuários e eventos 
 
-# jAVA-API
 
 O projeto consiste em uma apirestful de um sistema de cadastro de Eventos e Usuarios 
 
