@@ -11,7 +11,7 @@ Na raiz do projeto com docker ativado digite os comandos.
 
 Api também disponível no docker-hub : 
 
-https://hub.docker.com/r/jgjaum/java-api
+https://hub.docker.com/r/jgjaum/java-api-rest
 
 -docker build -t java-api . 
 
