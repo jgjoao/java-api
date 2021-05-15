@@ -13,11 +13,11 @@ Api também disponível no docker-hub :
 
 https://hub.docker.com/r/jgjaum/java-api-rest
 
--docker build -t java-api . 
+-docker build -t java-api-rest . 
 
 em seguida para apos buildar o projeto para rodar digite: 
 
--docker run -p 8080:8080 java-api 
+-docker run -p 8080:8080 java-api-rest
 
 ### 📋 Pré-requisitos
 
